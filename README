@@ -1,0 +1,11 @@
+
+To run unit tests:
+    melange_client_dir> ./run_tests.sh melange_client.tests.unit
+
+To run functional tests:
+1. Start the melange server
+2. Update the configuration values in 
+      melange_client/tests/functional/tests.conf 
+   to point to the melange server
+3. Run the tests:
+   melange_client_dir> ./run_tests.sh melange_client.tests.functional
