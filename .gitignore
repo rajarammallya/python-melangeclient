@@ -1,0 +1,13 @@
+*.pyc
+*.DS_Store
+local_settings.py
+keeper
+build/*
+build-stamp
+melange.egg-info
+.melange-venv
+.venv
+*.sqlite
+*.log
+tags
+*~

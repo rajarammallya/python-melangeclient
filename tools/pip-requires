@@ -1,0 +1,10 @@
+pep8
+pylint
+mox
+nose
+sphinx
+coverage
+nosexcover
+httplib2
+pyyaml
+-e git+https://github.com/jkoelker/openstack-common.git@melange_compat#egg=openstack.common
